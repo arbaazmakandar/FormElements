@@ -17,7 +17,7 @@ const Form = () => {
       <label htmlFor="lastName">Last Name:</label>
       <input type="text" name="lastName" required />
       <br />
-      <button>Submit</button>
+      <button type="submit">Submit</button>
       <p>{fullName}</p>
     </form>
   );
