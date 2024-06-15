@@ -6,7 +6,7 @@ const Form = () => {
     e.preventDefault();
     const { firstName, lastName } = e.target.elements;
     if (firstName.value !== "" && lastName.value !== "")
-      setFullName("Full Name: " + firstName.value + lastName.value);
+      setFullName("Full Name: " + firstName.value + " " + lastName.value);
   };
   return (
     <form action="" onSubmit={handleSubmit}>
